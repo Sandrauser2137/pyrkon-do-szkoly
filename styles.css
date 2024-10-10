@@ -1,0 +1,98 @@
+*{
+    background-color:darkslateblue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 120%;
+}
+h1{
+    font-size: 700%;
+    margin: 0%;
+}
+.logo-container {
+    position: relative; 
+    width: 100%;
+    height: 100px; 
+}
+
+.logo-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+}
+/* Global Styles */
+
+
+/* Menu Styles */
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    z-index: 10;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 200px;
+    background-color: #333;
+    border-radius: 5px;
+    z-index: 9;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    font-size: 20px;
+}
+
+.menu ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #575757;
+}
+
+
+.menu.active {
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>strona testowa</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <nav id="dropdownMenu" class="menu">
+                <ul>
+                    <li><a href="opis.html">Czym jest Pyrkon?</a></li>
+                    <li><a href="regulamin.html">Konkurs cosplay</a></li>
+                    <li><a href="images.html">Galeria zdjęć</a></li>
+                    <li><a href="https://example.com/strona-nie-istnieje">Kup bilety</a></li>
+                    <li><a href="images.html">Galeria zdjęć</a></li>
+                    <li><a href="dodatkowa.html">Dodatkowa strona</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById("dropdownMenu");
+                menu.classList.toggle("active");
+            }
+        </script>
+        <div class="logo-container">
+            <img src="p.png" class="logo-left" alt="Logo Left" width="200" height="200">
+            <img src="p.png" class="logo-right" alt="Logo Right" width="200" height="200">
+        </div>
+
+        <h1>Pyrkon</h1>
+
+        <img src="korwin.jpg" alt="korwin" width="1100" height="600"><br>
+
+        <!--<a href="opis.html">Czym jest Pyrkon?</a><br>
+        <a href="regulamin.html">Konkurs cosplay</a><br>
+        <a href="images.html">Galeria zdjęć</a><br>
+        <a href=" ">Kup bilety</a>-->
+
+        <footer>To tylko strona testowa!</footer>
+    </body>
+</html>
